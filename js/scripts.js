@@ -1,11 +1,9 @@
 //business logic
-function Contact(first, last) {
-  this.firstName = first;
-  this.lastName = last;
-}
-
-// Contact.prototype.fullName = function() {
-//   return this.lastName + ", " + this.firstName;
+function Location(place, landmark, time, note) {
+  this.placeFoo = place;
+  this.landmarkFoo = landmark;
+  this.timeFoo = time;
+  this.noteFoo = note;
 }
 
 //ui logic
@@ -13,6 +11,8 @@ $(document).ready(function(){
   $("form").submit(function(event){
     event.preventDefault();
 
+    var inputtedFirstName = $("input#new-first-name").val();
+    var inputtedLastName = $("input#new-last-name").val();
     var inputtedFirstName = $("input#new-first-name").val();
     var inputtedLastName = $("input#new-last-name").val();
 
