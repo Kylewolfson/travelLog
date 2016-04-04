@@ -30,7 +30,7 @@ $(document).ready(function(){
       $("#show-place h2").text(newPlace.placeFoo);
       $(".place-name").text(newPlace.placeFoo);
       $(".landmarks").text(newPlace.landmarkFoo);
-      $(".time-of-year").text(newPlace.placeFoo);
-      $(".notes").text(newPlace.landmarkFoo);    });
+      $(".time-of-year").text(newPlace.timeFoo);
+      $(".notes").text(newPlace.noteFoo);    });
   });
 });
