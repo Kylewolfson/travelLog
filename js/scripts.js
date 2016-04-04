@@ -18,14 +18,14 @@ $(document).ready(function(){
 
     var newPlace = new Location(inputtedPlace, inputtedLandmark, inputtedTime, inputtedNote);
 
-    $("ul#places").append("<li><span class='location-class'>" + newPlace.placeFoo() + "</span></li>");
+    $("ul#places").append("<li><span class='location-class'>" + newPlace.placeFoo + "</span></li>");
 
     $("input#new-place").val();
     $("input#new-landmark").val();
     $("input#new-time-of-year").val();
     $("input#new-notes").val();
 
-    $(".contact").last().click(function(){
+    $(".location-class").last().click(function(){
       $("#show-place").show();
       $("#show-place h2").text(newPlace.placeFoo);
       $(".place-name").text(newPlace.placeFoo);

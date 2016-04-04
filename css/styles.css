@@ -2,11 +2,11 @@
   display: none;
 }
 
-.place {
+.location-class {
   cursor: pointer;
   color: #0088cc;
 }
 
-.place:hover {
+.location-class:hover {
   text-decoration: underline;
 }
